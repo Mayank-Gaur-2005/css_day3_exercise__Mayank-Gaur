@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Columns Layout</title>
+    <style>
+        .page {
+            display: flex;
+            width: 100%;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .left-column {
+            background-color: lightgray;
+        }
+
+        .right-column {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="column left-column">
+            <h2>Bestselling Books on Amazon Kindle Store</h2>
+            <ul>
+             <li>The Teacher: A Psychological Thriller.</li> 
+             <li>The Women: A Novel.</li>
+             <li>Never Lie: An addictive psychological thriller.</li>
+             <li>Ask for Andrea: A Thriller.</li>
+             <li>Storms and Secrets: A Small-Town Romance.</li>
+            </ul>
+        </div>
+        <div class="column right-column">
+            <h2>Favorite Celebrities/Athletes</h2>
+            <ul>
+                <li>Virat Kohli</li>
+                <li>Mahendrasingh Dhoni</li>
+                <li>Niraj Chopda</li>
+                <li>Salman khan</li>
+                <li>Akshay Kumar</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
